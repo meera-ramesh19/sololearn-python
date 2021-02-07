@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.png {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.colorblue {
+  color: #2874f0;
+}
+
+.colorwhite {
+  color: white;
+}
+
+.fontme {
+  font-size: medium;
+}
+
+.fontsm {
+  font-size: small;
+}
+
+.fontla {
+  font-size: large;
+}
+
+.header,
+.one,
+.two {
+  display: inline-flex;
+}
+
+.header {
+  position: fixed;
+  height: 50px;
+  line-height: 50px;
+  background-color: #2874f0;
+  color: white;
+  width: 100%;
+}
+
+.logo {
+  position: relative;
+  width: 75px;
+  height: 20px;
+  margin: auto;
+  margin-left: 200px;
+  margin-right: 10px;
+}
+
+.search {
+  margin-right: 200px;
+}
+
+.search form {
+  display: inline-flex;
+}
+
+.search input {
+  height: 40px;
+  width: 500px;
+  border-radius: 2px 0px 0px 2px;
+  border: none;
+  text-indent: 20px;
+  font-weight: 500;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search button {
+  height: 40px;
+  width: 50px;
+  border-radius: 0px 2px 2px 0px;
+  border: none;
+  background: white;
+  color: #2874f0;
+  font-size: 18px;
+}
+
+.two ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.two ul li {
+  width: 130px;
+  height: 30px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.two ul li:hover ul {
+  display: block;
+}
+
+.two ul li ul {
+  color: black;
+  width: 250px;
+  background-color: white;
+  left: -90px;
+  position: relative;
+  padding: 0px;
+  display: none;
+}
+
+.two ul li ul li {
+  width: 100%;
+  text-indent: 10px;
+  height: 50px;
+  border-style: none none solid none;
+  border-width: 0.5px;
+  border-color: #e4e1e1;
+  line-height: 50px;
+}
+
+.two ul li ul li:hover {
+  background-color: #f5f4f4;
+}
+
+.two ul li ul li:first-child {
+  border-top: solid #fed304;
+}
+
+.two ul li ul li:last-child {
+  border-color: white;
+}
+
+.two ul li.login {
+  background-color: white;
+  color: #2874f0;
+  margin: auto;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 70px;
+}
+
+.cart {
+  display: inline-flex;
+}
+
+.cart .cart_cir {
+  width: 20px;
+  height: 20px;
+  background-color: #f0d944;
+  margin: auto;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 100%;
+  margin-left: 0;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
