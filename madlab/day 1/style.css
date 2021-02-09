@@ -1,0 +1,6 @@
+.h2text {
+  color: violet;
+  background: linear-gradient(60deg, green 20%, red 90%, white);
+  height: 500px;
+  width: 600px;
+}
