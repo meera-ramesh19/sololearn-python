@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  color: red;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 900;
+  text-align: center;
+  background-color: grey;
+  height: 100px;
+  line-height: 100px;
+  position: relative;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+}
+
+
+
+.one {
+  width: 100px;
+  height: 50px;
+  background-color: hotpink;
+  line-height: 50px;
+  text-shadow: 1px 1px 2px #000000,
+    -1px -1px 2px #000000,
+    10px 5px 10px #fed304;
+  text-indent: 30px;
+}
