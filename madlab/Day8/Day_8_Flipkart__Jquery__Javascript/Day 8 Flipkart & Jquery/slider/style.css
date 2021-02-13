@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.png {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: indigo;
+  overflow: hidden;
+}
+
+.pre,
+.next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 22px 16px 22px 16px;
+  color: white;
+  top: 40%;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  display: inline-flex;
+  margin: auto;
+  z-index: 50;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+
+}
+
+.slider {
+  width: 300%;
+  height: 100%;
+  background-color: khaki;
+  position: relative;
+  z-index: 20;
+  left: 0%;
+  padding: 5px 0px 5px 0px;
+  background-color: rgb(196, 191, 191);
+
+}
+
+.slider .slides {
+  float: left;
+  width: calc(100% / 3);
+  height: 100%;
+  background-color: blue;
+  position: relative;
+
+
+}
+
+.one {
+  opacity: 1;
+  background-color: red !important;
+}
+
+.two {
+  opacity: 1;
+  background-color: green !important;
+}
+
+.three {
+  opacity: 1;
+  background-color: blue !important;
+}

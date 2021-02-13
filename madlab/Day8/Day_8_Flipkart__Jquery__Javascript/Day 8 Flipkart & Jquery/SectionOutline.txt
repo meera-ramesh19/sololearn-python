@@ -1,0 +1,102 @@
+JAVASCRIPT TYPES
+-----------------
+1. Number 
+2. String
+3. Boolean
+4. Undefined
+5. Null
+
+JAVASCRIPT COMPARISONS
+-----------------
+
+!==
+===
+>=
+<=
+>
+<
+
+JAVASCRIPT VARIABLES
+-----------------
+var
+const
+
+JAVASCRIPT CONDITIONALS
+-----------------
+if
+else
+else if
+
+
+
+JAVASCRIPT LOGICAL OPERATORS
+-----------------
+&&
+||
+!
+
+JAVASCRIPT FUNCTIONS
+-----------------
+function name() {}
+return
+
+
+JAVASCRIPT DATA STRUCTURES
+-----------------
+Array
+
+JAVASCRIPT LOOPING
+-----------------
+for
+while
+
+
+
+JAVASCRIPT KEYWORDS
+-----------------
+break
+case
+catch
+class
+const
+continue
+debugger
+default
+delete
+do
+else
+export
+extends
+finally
+for
+function
+if
+import
+in
+instanceof
+new
+return
+super
+switch
+this
+throw
+try
+typeof
+var
+void
+while
+with
+yield
+
+
+
+Jquery
+------------
+
+text
+click
+hide
+css
+fadeIn
+fadeOut
+html
