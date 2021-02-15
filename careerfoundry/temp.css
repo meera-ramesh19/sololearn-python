@@ -1,0 +1,164 @@
+
+body{
+  margin: 0 auto;
+  padding: 0;
+  width: 960px;
+  box-sizing:border-box;
+  background-color:#e0ffff;
+  color: navy-blue;
+}
+.container{
+  max-width:600px;
+  margin : 0 auto;
+}
+.container > div{
+
+  margin: 20px auto;
+}
+
+.intro{
+  text-align:center;
+}
+
+.picture-profile{
+  border-radius: 50%;
+  width:150;
+  height:150;
+  box-shadow: 0 4px 6px 0 rgba(55, 235, 255, 0.6);
+
+}
+
+.profile-picture:hover {
+    box-shadow: 0 8px 12px 0 rgba(55,250,255,.6);
+}
+
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* 60% 30%; */
+}
+
+.i-am
+{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  float: left;
+  display: inline-block;
+
+  /* text-align: center; */
+
+}
+.i-like {
+  width: 100px;
+  height: 100px;
+  margin-left: 150px;
+  float: left;
+  display: inline-block;
+
+}
+.about-list {
+
+  list-style: none;
+  padding: 0;
+}
+
+.project-portfolio {
+  /*   margin-left: 200px; */
+  text-align: center;
+
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-gap: 6px;
+  margin-left: 80px;
+  margin-right: 4px;
+}
+
+
+}
+
+.links-and-contact {
+  display: inline-block;
+
+  grid-template-columns: 50% 50%;
+  /* 40% 30%; */
+}
+
+.links {
+  width: 100px;
+  height: 100px;
+  margin-left: 200px;
+  float: left;
+  display: inline-block;
+
+}
+
+.contacts {
+  width: 100px;
+  height: 100px;
+  margin-left: 280px;
+  float: left;
+  display: inline-block;
+}
+
+.links-list {
+
+  list-style: none;
+  padding: 0;
+}
+
+form input,
+textarea {
+  padding: 5px;
+  width: 200px;
+  border-radius: 5px;
+
+}
+
+form {
+  width: 250 px;
+  margin: 0 auto;
+}
+
+form input([type="submit"]) {
+  width: 50px;
+}
+
+.submit-button-wrapper {
+  margin-left: 50px 0;
+
+}
+
+
+@media (max-width: 650px) {
+    .links-and-contact {
+        grid-template-columns: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .about-grid {
+        grid-template-columns: 100%;
+    }
+}
+@media (max-width: 650px) {
+    .projects-grid {
+        grid-template-columns: 100%;
+    }
+}
+
+
+@media (min-width: 600px) {
+    .grid {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (min-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
