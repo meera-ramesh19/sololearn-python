@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Myfirst.css">
+    <title>title</title>
+
+
+
+</head>
+
+<body>
+    <h1>Profile - Meera Ramesh</h1>
+
+
+    <nav>
+       <a href="#about-me">About Me</a>
+       <a href="#interests">My Interests</a>
+       <a href="#audio">Audio</a>
+       <a href="#video">Video</a>
+       <a href="#languages">Languages
+         <!-- <nav>
+             <a href="#hindi" hreflang="hi">Hindi</a>
+             <a href="#kannada" hreflang="kn">Kannada</a>
+              <a href="#marathi" hreflang="mr">Marathi</a>
+        <nav> -->
+       </a>
+
+
+   </nav>
+
+
+    <section id="#about-me">
+        <img src="images/profilepic.jpg" width="100" height="100" alt="Profile picture of Meera">
+        <h2>About Me</h2>
+        <ul>
+            <li>I live in NewYork</li>
+            <li>I am from India</li>
+            <li>I speak three Indian
+                <ol>
+                    <li>
+                        <a href="#kannada">Kannada</a>
+
+                    </li>
+                    <li>
+                        <a href="#hindi">Hindi</a>
+
+                    </li>
+                    <li>
+                        <a href="#marathi">Marathi</a>
+
+                    </li>
+                </ol>
+            </li>
+            <li>I would like to learn a spanish</li>
+            <li>One goal I'd like is to travel</li>
+        </ul>
+
+    </section>
+
+    <section id="#interests">
+        <h2>Interests</h2>
+        <ul>
+            <li>Music</li>
+            <li>Traveling</li>
+            <li>DIY Crafts and Arts</li>
+            <li>Baking</li>
+            <li>Board Games</li>
+        </ul>
+
+    </section>
+
+   <section id="languages">
+        <nav>
+          <a href="#hindi" hreflang="fr"></a>
+          <a href="#kannada" hreflang="ja"></a>
+          <a href="#marathi" hreflang="mr"></a>
+
+       <nav>
+   </section>
+
+  <section id="audio">
+     <figure>
+        <figcaption>Audio Element</figcaption>
+        <audio controls loop>
+               <source src="audios/SoundHelix-Song-4.mp3" type="audio/mpeg">
+                Your browser does not support the Audio Here is <a href="audios/SoundHelix-Song-4.mp3">
+               link to the <code>audio<code></a> instead.
+
+        </audio>
+        <p>Click on the play button to play a sound:</p>
+    </figure>
+</section>
+
+
+<section id="video">
+    <figure>
+        <figcaption>Video Element</figcaption>
+        <video width="150" height="150" controls loop>
+           <source src="videos/downtown.mp4" type="audio/mpeg">
+            Your browser does not support the Audio Here is <a href="images/nycsunset.jpg">
+           link to the <code>video<code></a> instead.
+        </video>&nbsp&nbsp&nbsp
+        <a href="images/nycsunset.jpg" width="100" height="100">
+            <img src="images/nyclogo.png" width="200" height="200" alt="Downtown ">
+
+        </a>
+        <p>Click on the play button to play a sound:</p>
+    </figure>
+</section>
+
+<section id="languages">
+    <section id="hindi">
+        <figure>
+            <figcaption>Hndi</figcaption>
+            <a href="https://www.youtube.com/watch?v=zWEOx7TSM6I">
+            <img src="images/hindi.png" alt="Bollywood song" />
+            </a>
+        </figure>
+    </section>
+
+    <section id="kannada">
+      <figure>
+            <figcaption>Kannada</figcaption>
+            <a href="https://kannada.oneindia.com/?utm_medium=Desktop&utm_source=OI-EN&utm_campaign=menu-header ">
+            <img src="images/kannada.png" alt="Kannada e-Newspaper"/>
+            </a>
+      </figure>
+    </section>
+
+    <section id="marathi">
+        <figure>
+            <figcaption>Marathi</figcaption>
+            <a href="https://www.lokmat.com">
+            <img src="images/marathi.png" alt="Marathi e-Newspaper" />
+            </a>
+        </figure>
+    </section>
+</section>
+
+
+
+<section>
+  <h3 class="project-portfolio"> My projects</h3>
+  <section class="portfolio">
+
+    <img src="images/project-1.jpg" width=300 height=300/>
+    <img src="images/project-2.jpg" width=300 height=300/>
+    <img src="images/project-3.jpg" width=300 height=300/>
+    <img src="images/project-4.jpg" width=300 height=300/>
+  </section>
+  <section class="links-and-contact">
+       <section class="links">
+          <h3>Links</h3>
+          <ul class="links-list">
+             <li><a href="https://github.com">Github</a></li>&nbsp
+             <li><a href="https://twitter.com">Twitter</a></li>&nbsp
+             <li><a href="https://www.linkedin.com">Linkedin</a></li>&nbsp
+             <li><a href=""
+          </ul>
+       </section>
+
+
+       <section class="contacts">
+            <h3>Contacts</h3>
+
+
+            <form action="#">
+                 <label for="email">Email  :   </label>
+                 <input type="text" id="email" name="email"><br><br>
+                 <label for="message">Message:</label>
+                 <textarea id="message">Your Message</textarea><br>
+                 <section class="submit-button-wrapper">
+                    <br>
+                    <input type="submit" valid="Send Message" />
+                 </section>
+            </form>
+        </section>
+  </section>
+
+</body>
+</html>

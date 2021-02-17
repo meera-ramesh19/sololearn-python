@@ -1,0 +1,2 @@
+html5test.com to find which browser supports most of the features of HTML
+https://screenfly.org/# gives a preview of how a site might interact
